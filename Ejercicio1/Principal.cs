@@ -8,13 +8,13 @@ namespace Ejercicio1
 {
     public class Principal
     {
-        public string nombreApellidos { get; set; } = "Paula Garcia Pasalodos";
-        public int edad { get; set; } = 23;
-        public int año { get; set; } = 1994;
+        public string nombreApellidos { get; set; }
+        public int edad { get; set; }
+        public int año { get; set; }
 
     }
 
-    public class Operaciones: Principal
+    public class Operaciones
     {
         public string CrearMensaje(Principal obj)
         {
